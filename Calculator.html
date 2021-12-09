@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<link rel="manifest" href="Calculator.json">
+<link rel="shortcut icon" href="Calculator.png">
+<meta name="viewport" content="user-scalable=no">
+<title id="title"></title>
+<link rel="stylesheet" href="Calculator.css">
+<script src="Calculator.js" defer></script>
+</head>
+<body onscroll="align()">
+<form class="calculator" name="calc" autocomplete="on" onsubmit="equals(); return false;" onerror="return false;">
+<div id="history">
+<input class="value" type="tel" name="txt" dir="auto" placeholder="0" required readonly>
+<h1><span>History</span><span id="clear" onclick="clearall()" class="material-icons">delete_forever</span></h1>
+<div id="calculation">
+<center id="nocalc">
+<img src="NoCalculationsDark.png" alt="No Calculation" id="nocalcimg">
+<br><br>
+<span id="nocalctxt">No past calculations. Every thing you calculate will appear hear.</span>
+</center>
+</div>
+</div>
+<span id="dropbtn" class="material-icons" onclick="dropdown()">expand_circle_down</span>
+<input type="tel" name="small" id="small" readonly>
+<div id="keypad" onclick="small()">
+<input type="reset" value="AC">
+<div id="&pi;" onclick="pi(this.id);">&pi;</div>
+<div id="e" onclick="euler()">e</div>
+<div id="%" class="%" onclick="percent()">%</div>
+<div id="(" class="(" onclick="bracketstart()">(</div>
+<div id="^" class="**" onclick="exponent()">^</div>
+<div id=")" class=")" onclick="bracketend()">)</div>
+<div id="&#247;" class="/" onclick="divide(this.id)">&#247;</div>
+<div id="7" class="7" onclick="calculator(this.id);calculate(this.classList);">7</div>
+<div id="8" class="8" onclick="calculator(this.id);calculate(this.classList);">8</div>
+<div id="9" class="9" onclick="calculator(this.id);calculate(this.classList);">9</div>
+<div id="&times;" class="*" onclick="multiply(this.id)">&times;</div>
+<div id="4" class="4" onclick="calculator(this.id);calculate(this.classList);">4</div>
+<div id="5" class="5" onclick="calculator(this.id);calculate(this.classList);">5</div>
+<div id="6" class="6" onclick="calculator(this.id);calculate(this.classList);">6</div>
+<div id="+" class="+" onclick="plus()">+</div>
+<div id="3" class="3" onclick="calculator(this.id);calculate(this.classList)">3</div>
+<div id="2" class="2" onclick="calculator(this.id);calculate(this.classList);">2</div>
+<div id="1" class="1" onclick="calculator(this.id);calculate(this.classList);">1</div>
+<div id="-" class="-" onclick="minus()">-</div>
+<div id="0" class="0" onclick="calculator(this.id);calculate(this.classList);">0</div>
+<div id="." class="." onclick="calculator(this.id);calculate(this.classList);">&bull;</div>
+<div id="dzero" class="num material-icons" onclick="backspace()">backspace</div>
+<input type="submit" value="=" id="equal" class="num">
+</div>
+<input type="text" id="main" name="main" required readonly>
+</form>
+<div id="fix"><div id="delete">
+<img src="DeleteDark.png" alt="Delete" id="delimg">
+<br><br>
+<center id="deltxt">Delete all </center>
+<br>
+<font color="blue" onclick="clearno()">&nbsp; Cancel &nbsp;</font><font color="orangered" onclick="clearyes()">&nbsp; Delete &nbsp;</font>
+</div></div>
+<script src="History.js"></script>
+</body>
+</html>
