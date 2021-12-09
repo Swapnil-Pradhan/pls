@@ -28,7 +28,7 @@ transition: background 0s, all 0.5s;
 z-index: 1;
 word-break: break-word;
 position: absolute;
-height: 20%;
+height: 21.8%;
 overflow: hidden;
 }
 
@@ -45,6 +45,7 @@ width: 97.5%;
 border-color: transparent;
 font-family: Montserrat;
 text-align: right;
+height: 100%;
 }
 
 #keypad{
