@@ -46,6 +46,7 @@ border-color: transparent;
 font-family: Montserrat;
 text-align: right;
 transition: 0.5s;
+height: 100%;
 }
 
 #keypad{
