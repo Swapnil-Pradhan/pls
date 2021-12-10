@@ -181,9 +181,9 @@ document.querySelector(".value").style.height="100%";
 dropbtn.style.transform="translateX(0) translateY(500%) rotate(-360deg)";
 history.style.overflow="hidden";
 document.calc.small.style.opacity="1";
-setTimeout(()=>{
-document.querySelector(".value").style.height="";
-},500)
+
+
+
 }
 else{
 history.style.height="99%";
