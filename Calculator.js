@@ -170,7 +170,8 @@ document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="21%";
+history.style.height="30%";
+document.getElementById("hishead").style.opacity="0";
 document.querySelector(".value").style.height="100%";
 dropbtn.style.transform="translateX(0) translateY(400%) rotate(-360deg)";
 history.style.overflow="hidden";
@@ -185,7 +186,7 @@ document.querySelector(".value").style.height="7%";
 dropbtn.style.transform="translateY(400%) rotate(180deg)";
 history.style.overflowY="scroll";
 document.calc.small.style.opacity="0";
-}
+document.getElementById("hishead").style.opacity="1";
 if(localStorage.length==0){
 document.getElementById("clear").style.display="none";
 }
