@@ -275,6 +275,7 @@ font-weight: normal;
 border-radius: 0 0 75px 75px;
 padding: .5% 4% .5% 4%;
 width: 92%;
+transition: 0.5s;
 }
 
 #clear{
