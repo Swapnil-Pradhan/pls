@@ -175,7 +175,7 @@ document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="30%";
+history.style.height="33%";
 hishead.style.opacity="0";
 document.querySelector(".value").style.height="100%";
 dropbtn.style.transform="translateX(0) translateY(500%) rotate(-360deg)";
