@@ -170,7 +170,7 @@ document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="25%";
+history.style.height="21%";
 document.querySelector(".value").style.height="100%";
 dropbtn.style.transform="translateX(0) translateY(400%) rotate(-360deg)";
 history.style.overflow="hidden";
