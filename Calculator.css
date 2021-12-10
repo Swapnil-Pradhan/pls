@@ -220,7 +220,7 @@ direction: ltr;
 
 #dropbtn{
 position: absolute;
-top: 30%;
+top: 24%;
 font-size: 456%;
 margin-left: 2%;
 transform: rotate(-360deg);
