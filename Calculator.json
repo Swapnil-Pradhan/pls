@@ -1,13 +1,12 @@
 {
 "background_color": "#202020",
 "description": "A simple calculator with dark and light theme support and can also store your calculations locally so that you don't lose any of your calculations.",
-"name": "Better than yours.",
 "display": "fullscreen",
+"name": "Better than yours.",
 "orientation": "portrait",
 "short_name": "Calculator",
 "start_url": "index.html",
 "theme_color": "#202020",
-"scope": "/",
 "categories": [
 "utilities"
 ],
