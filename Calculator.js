@@ -1,23 +1,4 @@
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-e.preventDefault();
-deferredPrompt = e;
-showInstallPromotion();
-});
 
-window.addEventListener('appinstalled', () => {
-hideInstallPromotion();
-deferredPrompt = null;
-alert("Thank you for installing Calculator 😄");
-window.open("https://swapnil-pradhan.github.io/Calculator/")
-});
-
-if ('serviceWorker' in navigator){
-navigator.serviceWorker.register('Cache.js')
-}
-function calculator(Id){
-document.calc.txt.value+=Id;
-}
 
 function calculate(clickedClassList){
 document.calc.main.value+=clickedClassList;
