@@ -176,7 +176,7 @@ document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="30%";
+history.style.height="24%";
 hishead.style.opacity="0";
 document.querySelector(".value").style.height="69%";
 dropbtn.style.transform="rotate(-360deg)";
@@ -184,7 +184,7 @@ history.style.overflow="hidden";
 document.calc.small.style.opacity="1";
 }
 else{
-dropbtn.style.top="20%";
+dropbtn.style.top="18%";
 history.style.height="99%";
 hishead.style.opacity="1";
 document.querySelector(".value").style.height="7%";
