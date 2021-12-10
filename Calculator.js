@@ -188,7 +188,7 @@ document.querySelector(".value").style.height="";
 else{
 history.style.height="99%";
 hishead.style.opacity="1";
-document.querySelector(".value").style.height="7%";
+document.querySelector(".value").style.height="9%";
 dropbtn.style.transform="translateY(500%) rotate(180deg)";
 history.style.overflowY="scroll";
 document.calc.small.style.opacity="0";
