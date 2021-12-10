@@ -164,6 +164,10 @@ function dropdown(){
 var history = document.getElementById("history");
 var dropbtn = document.getElementById("dropbtn");
 if(dropbtn.style.transform=="translateY(350%) rotate(180deg)"){
+document.getElementById("history").scrollTo({
+top: 0,
+behavior: 'smooth'
+})
 history.style.height="25%";
 document.querySelector(".value").style.height="100%";
 dropbtn.style.transform="translateX(0) translateY(350%) rotate(-360deg)";
