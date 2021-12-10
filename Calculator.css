@@ -28,7 +28,7 @@ transition: background 0s, all 0.5s;
 z-index: 1;
 word-break: break-word;
 position: absolute;
-height: 35%;
+height: 34%;
 overflow: hidden;
 }
 
@@ -52,7 +52,7 @@ transition: 0.5s;
 display: grid;
 grid-template-columns: 24% 24% 24% 24%;
 grid-gap: 2%;
-height: 66%;
+height: 65%;
 width: 94%;
 margin: 2%;
 bottom: 0;
