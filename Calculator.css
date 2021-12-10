@@ -28,7 +28,7 @@ transition: background 0s, all 0.5s;
 z-index: 1;
 word-break: break-word;
 position: absolute;
-height: 34%;
+height: 32%;
 overflow: hidden;
 }
 
@@ -221,7 +221,7 @@ direction: ltr;
 position: relative;
 font-size: 456%;
 margin-left: 2%;
-transform: translateY(500%) rotate(-360deg);
+transform: translateY(700%) rotate(-360deg);
 transition: 0.5s;
 z-index: 50;
 border-radius: 50%;
@@ -256,7 +256,7 @@ outline: none;
 border-color: transparent;
 font-size: 456%;
 color: #c2c2c2;
-transform: translateY(400%);
+transform: translateY(600%);
 background: transparent;
 width: 75%;
 right: 2%;
