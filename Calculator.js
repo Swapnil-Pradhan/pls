@@ -170,15 +170,16 @@ function dropdown(){
 var history = document.getElementById("history");
 var dropbtn = document.getElementById("dropbtn");
 var hishead = document.getElementById("hishead");
-if(dropbtn.style.transform=="translateY(500%) rotate(180deg)"){
+if(dropbtn.style.transform=="translateY(700%) rotate(180deg)"){
 document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="34%";
+history.style.height="32%";
 hishead.style.opacity="0";
 document.querySelector(".value").style.height="100%";
-dropbtn.style.transform="translateX(0) translateY(500%) rotate(-360deg)";
+dropbtn.style.transform="translateX(0) translateY(5
+700%) rotate(-360deg)";
 history.style.overflow="hidden";
 document.calc.small.style.opacity="1";
 
@@ -189,7 +190,7 @@ else{
 history.style.height="99%";
 hishead.style.opacity="1";
 document.querySelector(".value").style.height="9%";
-dropbtn.style.transform="translateY(500%) rotate(180deg)";
+dropbtn.style.transform="translateY(700%) rotate(180deg)";
 history.style.overflowY="scroll";
 document.calc.small.style.opacity="0";
 }
