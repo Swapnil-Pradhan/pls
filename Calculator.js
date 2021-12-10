@@ -178,13 +178,9 @@ behavior: 'smooth'
 history.style.height="32%";
 hishead.style.opacity="0";
 document.querySelector(".value").style.height="100%";
-dropbtn.style.transform="translateX(0) translateY(5
-700%) rotate(-360deg)";
+dropbtn.style.transform="translateY(700%) rotate(-360deg)";
 history.style.overflow="hidden";
 document.calc.small.style.opacity="1";
-
-
-
 }
 else{
 history.style.height="99%";
