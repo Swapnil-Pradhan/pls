@@ -6,7 +6,7 @@
 "orientation": "portrait",
 "short_name": "Calculator",
 "start_url": "index.html",
-"theme_color": "#202020",
+"theme_color": "rgba(20, 20, 20, 0.1)",
 "categories": [
 "utilities"
 ],
