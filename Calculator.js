@@ -182,7 +182,7 @@ hishead.style.opacity="0";
 document.querySelector(".value").style.height="69%";
 dropbtn.style.transform="rotate(-360deg)";
 history.style.overflow="hidden";
-Small.style.display="none";
+Small.style.display="block";
 Small.style.opacity="1";
 }
 else{
