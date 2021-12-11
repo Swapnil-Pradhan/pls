@@ -16,7 +16,6 @@ src: url(Material.woff2) format('woff2');
 }
 
 body{
-user-select: none;
 color: white;
 font-family: ProductSans;
 margin: 0;
@@ -62,6 +61,7 @@ font-size: 567%;
 position: absolute;
 bottom: 0;
 z-index: 0;
+user-select: none;
 }
 
 #keypad div, input[type="submit"], input[type="reset"]{
@@ -216,6 +216,7 @@ word-wrap: normal;
 direction: ltr;
 -webkit-font-feature-settings: 'liga';
 -webkit-font-smoothing: antialiased;
+user-select: none;
 }
 
 #dropbtn{
@@ -280,6 +281,7 @@ padding: .5% 4% .5% 4%;
 width: 92%;
 transition: 0.5s;
 opacity: 0;
+user-select: none;
 }
 
 #clear{
