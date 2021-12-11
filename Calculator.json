@@ -17,5 +17,27 @@
 "sizes": "1536x1536",
 "purpose": "any"
 }
+],
+"screenshots": [
+{
+"src": "Preview.png",
+"sizes": "720x1471",
+"type": "image/png"
+},
+{
+"src": "Result.png",
+"sizes": "720x1471",
+"type": "image/png"
+},
+{
+"src": "History.png",
+"sizes": "720x1471",
+"type": "image/png"
+},
+{
+"src": "LightnDark.png",
+"sizes": "720x1471",
+"type": "image/png"
+}
 ]
 }
