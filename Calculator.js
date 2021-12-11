@@ -172,12 +172,12 @@ var dropbtn = document.getElementById("dropbtn");
 var hishead = document.getElementById("hishead");
 var Small = document.calc.small;
 if(dropbtn.style.transform=="rotate(180deg)"){
-dropbtn.style.top="24%";
+dropbtn.style.top="22%";
 document.getElementById("history").scrollTo({
 top: 0,
 behavior: 'smooth'
 })
-history.style.height="28%";
+history.style.height="27%";
 hishead.style.opacity="0";
 document.querySelector(".value").style.height="69%";
 dropbtn.style.transform="rotate(-360deg)";
