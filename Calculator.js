@@ -186,7 +186,7 @@ Small.style.display="block";
 Small.style.opacity="1";
 }
 else{
-dropbtn.style.top="18%";
+dropbtn.style.top="16%";
 history.style.height="99%";
 hishead.style.opacity="1";
 document.querySelector(".value").style.height="7%";
