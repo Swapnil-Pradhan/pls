@@ -1,17 +1,3 @@
-if("serviceWorker" in navigator){
-navigator.serviceWorker.register("int.js");
-}
-
-let deferredPrompt;
-window.addEventListener("beforeinstallprompt", (e)=>{
-e.preventDefault();
-deferredPrompt=e;
-deferredPrompt.prompt();
-deferredPrompt.userChoice.then((choiceResult)=>{
-deferredPrompt=null;
-});
-});
-
 document.getElementById("v").src="Update.js?version="+Date.now();
 
 if(window.addEventListener){
@@ -37,6 +23,7 @@ document.getElementById("alert").style.display="none";
 },2000)
 }
 download.onerror = function(){
+document.getElementById("slider").style.overflow="hidden";
 document.querySelector(".dots").style.opacity="0";
 setTimeout(()=>{
 document.querySelector(".dots").style.display="none";
