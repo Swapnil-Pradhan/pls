@@ -1,12 +1,12 @@
 {
-"background_color": "#202020",
+"background_color": "#000000",
 "description": "A simple calculator with dark and light theme support and can also store your calculations locally so that you don't lose any of your calculations.",
 "display": "standalone",
-"name": "Better than yours.",
+"name": "Speedy - Know Your Speed",
 "orientation": "portrait",
-"short_name": "Calculator",
+"short_name": "Speedy",
 "start_url": "Speedy.html",
-"theme_color": "#202020",
+"theme_color": "#000000",
 "categories": [
 "utilities"
 ],
