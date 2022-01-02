@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Speedy</title>
+<link rel="manifest" href="Speedy.json">
+<link rel="shortcut icon" type="image/png" href="Speedy.png">
+<link rel="stylesheet" href="Speedy.css">
+<meta name="theme-color" content="#000000" id="theme">
+<meta name="viewport" content="user-scalable=no">
+<script src="jQuery.js"></script>
+</head>
+<body>
+<div id="slider" onscroll="parallax()">
+<section id="st">
+<center class="card">
+<i class="message" id="progress"></i>
+<center class="result" id="result"></center>
+<span id="mbps">Megabits Per Second</span><hr color="orangered" id="hr"></center>
+<center><div class="dots"></div></center>
+<center id="nonet"><span id="no">No </span><span id="internet">Internet!</span><p id="p">Try to turn on Mobile Data or Wi-Fi and then click TEST AGAIN.</p></center>
+<div id="Alert"><center id="alert">Calculating internet speed...</center></div>
+<div id="data">
+<b>Speed:&nbsp;</b><span class="speed"></span>
+<br><br>
+<b>IP Address:&nbsp;&nbsp;</b><span class="ip"></span>
+<br><br>
+<b>OP:&nbsp;&nbsp;</b><span class="op"></span>
+<br><br>
+<b>Condition:&nbsp;&nbsp;</b><span class="condition"></span>
+<br><br>
+<b>Region:&nbsp;&nbsp;</b><span class="region"></span>
+</div>
+
+<nav>
+<a id="int" class="icon" href="#st">router</a>
+<a id="his" class="icon" href="#nd">timeline</a>
+</nav>
+<center id="test"><span onclick="history.go(0)" id="i"> TEST AGAIN </span></center>
+</section>
+<section id="nd">
+<h1>Hist<sub class="icon">history</sub>ry</h1>
+<div id="hiss">
+<br>
+</div>
+<script id="v"></script>
+<script src="Speedy.js"></script>
+</section>
+</div>
+<div>
+<div id="updatebg">
+<span>
+<h1>New update available!</h1>
+<h3 id="version">(Version: </h3>
+<h2>What's New?</h2>
+<p>
+<li id="line1"></li>
+<br>
+</p>
+<a href="Speedy.apk">&nbsp;Update&nbsp;</a>
+<i id="update" style="display:none">2</i>
+</span>
+</div>
+</div>
+</body>
+</html>

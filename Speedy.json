@@ -1,0 +1,33 @@
+{
+"background_color": "#000000",
+"description": "Test your internet download speed.",
+"display": "standalone",
+"name": "Speedy, know your speed.",
+"short_name": "Speedy",
+"start_url": "index.html",
+"scope": "/",
+"theme_color": "#000000",
+"categories": [
+"utilities"
+],
+"screenshots": [
+{
+"src": "Testing.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "NoInternet.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+}
+],
+"icons": [
+{
+"src": "Speedy.png",
+"type": "image/png",
+"sizes": "1536x1536",
+"purpose": "any maskable"
+}
+]
+}
