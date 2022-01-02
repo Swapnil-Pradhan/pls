@@ -1,5 +1,5 @@
 if("serviceWorker" in navigator){
-navigator.serviceWorker.register("Cache.js");
+navigator.serviceWorker.register("int.js");
 }
 
 let deferredPrompt;
