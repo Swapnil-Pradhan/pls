@@ -1,7 +1,12 @@
 self.addEventListener('install', (e) => {
 e.waitUntil(
-caches.open('SimpleCalculator').then((cache) => cache.addAll([
-'/Calculator/'
+caches.open('yes').then((cache) => cache.addAll([
+'Speedy.html',
+'jQuery.js',
+'Speedy.js',
+'Icons.woff2',
+'Product.ttf',
+'Speedy.css'
 ])),
 );
 });
