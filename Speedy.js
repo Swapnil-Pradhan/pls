@@ -1,5 +1,9 @@
 document.getElementById("v").src="Update.js?version="+Date.now();
 
+if(matchMedia("(display-mode: standalone)").matches){
+document.querySelector("head").innerHTML+="<meta name=google content=notranslate>";
+}
+
 if(window.addEventListener){
 window.addEventListener("load", InitiateSpeedDetection, false);
 }
