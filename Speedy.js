@@ -91,7 +91,7 @@ document.querySelector(".ip").innerHTML=data.ip;
 op.innerHTML=data.org;
 region.innerHTML=data.city+"&#44; "+data.region;
 var ops =op.innerHTML;
-localStorage.setItem(Date.now(), "<div id='mmh'><b style='font-size:345%'><br>"+speed.innerHTML+"</b><br><span style='font-size:123%'>"+data.ip+" | "+condition.innerHTML+" | "+data.city+" - "+data.region+"<br>"+data.org+"</span></div>");
+localStorage.setItem(Date.now(), "<div id='mmh'><b style='font-size:345%'><br>"+speed.innerHTML+"</b><br><span style='font-size:222%'>"+data.ip+" | "+condition.innerHTML+" | "+data.city+" - "+data.region+"<br>"+data.org+"</span></div>");
 }, "jsonp");
 }
 }
