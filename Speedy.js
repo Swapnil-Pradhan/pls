@@ -1,9 +1,3 @@
-document.getElementById("v").src="Update.js?version="+Date.now();
-
-if(matchMedia("(display-mode: standalone)").matches){
-document.querySelector("head").innerHTML+="<meta name=google content=notranslate>";
-}
-
 if(window.addEventListener){
 window.addEventListener("load", InitiateSpeedDetection, false);
 }
@@ -142,3 +136,4 @@ function replace(data){
 return data.split(",").map(item=>item.trim()).join("<br>");
 }
 document.getElementById("hiss").innerHTML=nocomma;
+document.getElementById("v").src="Update.js?version="+Date.now();
