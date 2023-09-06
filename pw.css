@@ -1,0 +1,111 @@
+* {
+    transition: .5s;
+    color: snow;
+}
+
+body > app-root > mat-sidenav-container > mat-sidenav > div, body > app-root > mat-sidenav-container > mat-sidenav-content, body > app-root > mat-sidenav-container > mat-sidenav, body > app-root > mat-sidenav-container > mat-sidenav-content > app-header > mat-toolbar, body, html{
+    background-color: #0f0000 !important;
+}
+
+body > app-root > mat-sidenav-container > mat-sidenav-content > app-study > article > section > app-mahapack-layout > main > article > div:nth-child(1) > div > app-schedule-class > section > section > div.flex.gap-3.mt-3.border-b.pb-2.ng-star-inserted > app-dummy-dropdown > section > div > span.truncate{
+    color: snow !important;
+    text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+  font-size: xxx-large !important;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div>div>app-quick-access>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div>app-quick-access-tile>div>div>div>span>h3>strong {
+    color: rgb(247, 246, 219);
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article {
+    overflow: scroll !important;
+    background: url("bg2.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin: 0;
+    max-height: 94vh;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content {
+    overflow: hidden;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(1)>div>app-schedule-class>section>section>section>div {
+    overflow: visible !important;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div>div section,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(4)>div>app-reels>article,
+.weekly-button,
+.view-all-btn {
+    border-radius: 69px !important;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(1)>div>app-schedule-class>section,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(3)>div>app-quick-access>section,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(5)>div>app-recommend-section>section,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(4)>div>app-reels>article,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(6)>div>app-explore-widget>section {
+    background: radial-gradient(circle at bottom center, rgba(99, 99, 69, .9), rgba(99, 99, 69, .2));
+    backdrop-filter: blur(12px) !important;
+    color: white;
+    box-shadow: rgba(0, 0, 0, .5) 0px 54px 55px, rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.3) 0px 4px 6px, rgba(0, 0, 0, 0.4) 0px 12px 13px, rgba(0, 0, 0, 0.2) 0px -3px 5px;
+}
+
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div.mt-10,
+svg {
+    display: none;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(1)>div>app-schedule-class>section>section>section>div app-study-video-card,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(3)>div>app-quick-access>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div>app-quick-access-tile>div,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(3)>div>app-quick-access>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div:nth-child(4)>div>app-dashboard>app-quick-access-tile>div,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(6)>div>app-explore-widget>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div>app-explore-tile>div {
+    border-radius: 36px !important;
+    background: rgb(25, 25, 0) !important;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: .3s;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(1)>div>app-schedule-class>section>section>section>div app-study-video-card:hover,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(3)>div>app-quick-access>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div>app-quick-access-tile>div:hover,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(3)>div>app-quick-access>section>div.mt-5.grid.grid-cols-12.gap-3.md\:gap-5>div:nth-child(4)>div>app-dashboard>app-quick-access-tile>div:hover,
+.weekly-button:hover,
+.view-all-btn:hover,
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(5)>div>app-recommend-section>section>div.w-full.batch-card-container.my-5.no-scrollbar.ng-star-inserted>div:hover {
+    scale: .9;
+    box-shadow: rgba(0, 0, 0, .5) 0px 54px 55px, rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.3) 0px 4px 6px, rgba(0, 0, 0, 0.4) 0px 12px 13px, rgba(0, 0, 0, 0.2) 0px -3px 5px;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(5)>div>app-recommend-section>section>div.w-full.batch-card-container.my-5.no-scrollbar.ng-star-inserted>div>app-batch-card-new>div {
+
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(9px);
+    overflow: visible;
+    border-radius: 45px !important;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(5)>div>app-recommend-section>section>div.w-full.batch-card-container.my-5.no-scrollbar.ng-star-inserted>div {
+    background-image: url("bg.svg") !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 45px !important;
+}
+
+body>app-root>mat-sidenav-container>mat-sidenav-content>app-study>article>section>app-mahapack-layout>main>article>div:nth-child(5)>div>app-recommend-section>section>div.w-full.batch-card-container.my-5.no-scrollbar.ng-star-inserted>div>app-batch-card-new>div>div.card-details.px-3.py-2.flex.flex-col.flex-grow.gap-1.w-full.border-b.justify-center * {
+    color: snow !important;
+}
+
+body > app-root > mat-sidenav-container > mat-sidenav-content > app-study > article > section > app-mahapack-layout > main > article > div > div > app-recommend-section > section > div.w-full.batch-card-container.my-5.no-scrollbar.ng-star-inserted > div > app-batch-card-new > div > div.card-poster.px-3.relative.cursor-pointer > span{
+    color: rgb(18, 32, 28);
+}
